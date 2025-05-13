@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.section{
+  height: 100vh;
+  padding: 10px;
+  margin-bottom: 50px;
+}
