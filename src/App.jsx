@@ -31,11 +31,11 @@ function App() {
 
         </div>
 
-        <div className='hidden lg:flex gap-10 p-4 justify-center font-light '>
+        <div className='hidden lg:h-12 lg:flex gap-10 p-2 lg:m-0 justify-center font-light'>
           <Link to='Home' smooth={true} duration={100} className='hover:font-medium hover:border-b-1 hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>Home</Link>
-          <Link to='HowWorks' smooth={true} duration={100} className='hover:font-medium hover:border-b-1 hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>How It Works</Link>
+          <Link to='HowWorks' smooth={true} duration={100} className='hover:font-medium hover:border-b-1  hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>How It Works</Link>
           <Link to='WhyUs' smooth={true} duration={100} className='hover:font-medium hover:border-b-1 hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>Why Us?</Link>
-          <Link to='Testimonials' smooth={true} duration={100} className='hover:font-medium hover:border-b-1 hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>Testimonials</Link>
+          <Link to='Testimonials' smooth={true} duration={100} className='hover:font-medium hover:border-b-1  hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>Testimonials</Link>
           <Link to='Contact' smooth={true} duration={100} className='hover:font-medium hover:border-b-1 hover:translate-y-[-2px] transition-all duration-300 ease-in-out hover:cursor-pointer '>Contact</Link>
         </div>
       </nav>
@@ -51,11 +51,11 @@ function App() {
           <Link to='Contact' smooth={true} duration={100} onClick={toggleMenu} className='hover:font-medium cursor-pointer'>Contact</Link>
         </div>
       </div>
-      <Home />
-      <HowWorks/>
-      <WhyUs/>
-      <Testimonials/>
-      <Contact/>
+        <Home />
+        <HowWorks/>
+        <WhyUs/>
+        <Testimonials/>
+        <Contact/>
       <footer className='mt-10 bg-black text-white py-6'>
         <div className='flex flex-col items-center'>
           <div className='flex gap-4 border-b-1 items-center py-2 px-12 text-sm font-light'>

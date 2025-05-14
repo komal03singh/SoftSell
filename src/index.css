@@ -6,7 +6,9 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 0.5 rem;
+  
+
 }
 .section{
   height: 100vh;

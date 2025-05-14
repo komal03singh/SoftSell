@@ -36,7 +36,7 @@ function Contact() {
                 </div>
               </select>
               <label className='text-sm lg:text-base font-light mb-2' htmlFor="message"><i class="fa-solid fa-message text-white pr-2"></i>Message</label>
-              <textarea className=' text-sm lg:text-base bg-white/20 backdrop-blur-2xl p-2 font-light' rows={'5'} id="message">Enter your message . . .</textarea>
+              <textarea className=' text-sm lg:text-base bg-white/20 backdrop-blur-2xl p-2 font-light resize-none' rows={'5'} id="message">Enter your message . . .</textarea>
               <button className='text-sm lg:text-base w-1/3 mt-10 bg-white text-black font-light py-3 hover:cursor-pointer hover:translate-y-[-4px] hover:shadow-lg shadow-gray-500 duration-300 ease-in-out'>Submit</button>
             </form>
           </div>
